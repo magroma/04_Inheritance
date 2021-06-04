@@ -1,8 +1,8 @@
 public class SuperCat {
 
     // Property | Attribut | Field
-    protected String name;
-    protected String furColor;
+    private String name;
+    private String furColor;
     protected int age;
 
     protected SuperCat(String name, String furColor, int age) {
@@ -21,7 +21,7 @@ public class SuperCat {
                 return "ERROR";
         }
     }
-    protected String tellYourAge() {
-        return Integer.toString(this.age);
-    }
+    // protected String tellYourAge() {
+    //     return Integer.toString(this.age);
+    // }
 }
