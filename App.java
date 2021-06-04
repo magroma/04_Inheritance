@@ -2,7 +2,7 @@ public class App {
     
     public static void main(String[] args) {
            
-        Cat cat = new Cat("Grizabella", "white"/*, 29*/);
+        Cat cat = new Cat("Grizabella", "white", 29);
         ausgabe(cat.tellYourAttributes("#name"));
         ausgabe(cat.tellYourAttributes("#color"));
 
